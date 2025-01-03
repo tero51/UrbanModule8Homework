@@ -1,23 +1,3 @@
-# def f1(number):
-#     return 10 / number
-#
-#
-# def f2():
-#     print('Ebal dremal')
-#     summ = 0
-#     for i in range(-2,2,1):
-#         try:
-#             summ += f1(i)
-#             print(summ)
-#         except ZeroDivisionError as exc:
-#             print(f"Pidorasi chto-to ne to {exc}, no ya ebal")
-#     return summ / 0
-#
-# try:
-#     total = f2()
-#     print(f"Vot syka tvoya zalupa {total}")
-# except ZeroDivisionError as exc:
-#     print(f"dyatel chto-to ne to {exc}, no ya ebal")
 from itertools import count
 
 
